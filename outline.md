@@ -35,6 +35,7 @@
     * 'Recording will start in 5,4,3,2,1'
     * 'Recording'
   * Start recording using microphone on computer
+    * I don't know how to do this... part
   * Dispay Recording animation
     * something shows on screen that indicates that recording is taking place
     * e.g. red text of time counter

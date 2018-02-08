@@ -6,10 +6,17 @@ font-family: 'Princess Sofia', cursive;
 font-family: 'Exo 2', sans-serif;
 font-family: 'Jura', sans-serif;
 */
-
+html {
+  background: url('https://goo.gl/B57HpG') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 body {
-  background-image: url('https://goo.gl/B57HpG');
+  color: white;
+  font-family: 'Jura', sans-serif;
 }
 
 body header {
@@ -25,22 +32,22 @@ body header h1 {
   margin: 15px;
 }
 
-main {
-  background-color: rgba(0, 0, 0, .7);
+main section {
+  background-color: rgba(0, 0, 0, .9);
   border-radius: 20px;
   width: 960px;
-  height: 300px;
+  /* height: 300px; */
   margin-left: auto;
   margin-right: auto;
 }
 
-main section {
+main #intro-section {
   padding: 50px;
   margin-bottom: auto;
   /* border: 1px solid white; */
 }
 
-main section h2 {
+main #intro-section h2 {
   font-family: 'Jura', sans-serif;
   font-size: 50px;
 }
@@ -93,4 +100,39 @@ div button {
   cursor: pointer;
   border-radius: 8px;
   font-family: 'Jura', sans-serif; 
+}
+/* Recording Section */
+/* UserName Form */
+
+main #recording-section{
+  margin-top: 30px;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+main #recording-section #username-form {
+  width: 600px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  
+}
+
+main #recording-section legend,
+main #recording-section h3{
+  font-size: 35px;
+  margin: 10px;
+}
+
+main #recording-section #username-form input {
+  height: 18px;
+}
+
+main #recording-section #username-form button{
+  color: black;
+  width: 100px;
+  height: 25px;
 }
